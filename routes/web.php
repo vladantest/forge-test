@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return "Forge laravel test - uspešno";
 });
+
+Route::get('/test-deploy', function () {
+    return "Forge laravel deploy test - uspešno";
+});
